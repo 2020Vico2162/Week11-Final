@@ -1,0 +1,136 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>Dying Star Forge</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+        <header>
+            <h1>Dying Star Forge</h1>
+            
+        </header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">
+                          Home
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">
+                          About
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="projects.html">
+                          Projects
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">
+                          Contact
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
+        <main class="ml-3 mr-3">
+            
+            <p>
+                We'd love to hear from you!  Please fill out the form below and let us
+            know how we can help
+            </p>
+            
+            <form action="https://formspree.io/f/xqkgbzjg" method="post">
+                <div class="form-group row">
+                    <label for="FirstName" class="col-md-2 col-form-label">
+                        First Name
+                    </label>
+                    <div class="col-md-10">
+                        <input type="text" name="FirstName" class="form-control" id="FirstName">
+                    </div>
+                </div>
+
+                
+                <div class="form-group row">
+                    <label class="col-md-2 col-form-label" for="LastName">Last Name</label>
+                    <div class="col-md-10">
+                        <input type="text" name="LastName" class="form-control" id="LastName">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-2 col-form-label" for="txteMail">Email Address</label>
+                    <div class="col-md-10">
+                        <input type="text" name="eMail"  class="form-control" id="txteMail">
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="preferredContact" value="email" class="form-check-input" id="radioemail"> 
+                    <label for="radioemail" class="form-check-label">I prefer eMail</label>
+                </div>
+                <div>
+                    <label class="col-md-2 col-form-label" for="txtPhone">Phone Number</label>
+                    <div class="col-md-10">
+                        <input type="text" name="PhoneNumber"  class="form-control" id="txtPhone">
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="preferredContact" value="phone" class="form-check-input" id="radiophone">
+                    <label for="radiophone" class="form-check-label">I prefer phone</label>
+                </div>
+                <div>
+                    <p>I would like my project completed in...</p>
+                    <input type="checkbox" name="urgency" value="asap">ASAP<br/>
+                    <input type="checkbox" name="urgency" value="1week">One Week<br/>
+                    <input type="checkbox" name="urgency" value="1month">One Month<br/>
+                </div>
+                <div class="form-group">
+                    <label for="selectentity">What is your business model</label>
+                    <select name="entity" class="form-control" id="selectentity">
+                        <option value="Individual">Individual</option>
+                        <option value="Small Business">Small Business</option>
+                        <option value="Corporation">Corporation</option>
+                        <option value="Non-Profit">Non-Profit</option>                    
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="textdescription">Please give your feedback or describe your project</label>
+                    <textarea name="description" id="textdescription" class="form-control"></textarea>
+                </div>
+                
+                <div>
+                    <button type="submit" class="btn btn-primary">Send us eMail!</button>
+                </div>
+            
+            </form>
+            
+
+            
+            
+            
+            
+            
+        </main>
+        <footer class="row">
+            <div class="col-md-6">
+                <p class="text-center text-md-left pl-md-3">&copy; 2020</p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-center text-md-right pr-md-3"><a href="contact.html">Contact us</a></p>
+            </div>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
