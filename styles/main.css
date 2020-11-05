@@ -61,13 +61,3 @@ ul.position-absolute {
         height: 18vw;
     }
 }
-
-@keyframes animate {
-    0% {
-        background-position-x:0;
-    }
-    100% {
-        background-position-x:200px;
-    }
-
-}
