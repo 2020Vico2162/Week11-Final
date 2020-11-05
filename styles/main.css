@@ -47,6 +47,10 @@ ul.position-absolute {
     height: 75vh;
 }
 
+.privateContent {
+    display:none;
+}
+
 @media (min-width: 576px) {
     .carousel-item img {
         height: 350px;
