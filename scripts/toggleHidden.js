@@ -1,11 +1,14 @@
 function showPrivate() {
-  var pContent = document.getElementById("privateContent");
-    var sButton = document.getElementById("showButton");
-  if (pContent.style.display === "none") {
+    
+    
+    var pContent = document.getElementById("privateContent");
+    var ageForm = document.getElementById("ageVerify");
+  if (document.getElementById("over21").checked) {
     pContent.style.display = "block";
-      sButton.style.display = "none";
+      ageForm.style.display ="none";
   } else {
-    pContent.style.display = "none";
+    document.getElementById("demo").innerHTML= "Sorry, you must be 21 to enter!";
+      return false;
   }
     return true;
 }

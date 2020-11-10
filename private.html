@@ -43,16 +43,21 @@
             </div>
         </nav>
         <main>
-            <form id="ageVerify" onsubmit="return showPrivate()">
-                <input type="checkbox" name="age" value="21"> I am over 21!
+            <form id="ageVerify" onsubmit="return showPrivate()" action="#">
+                <div  class="form-check">
+                    <input class="form-check-input" type="checkbox" name="age" value="under21" checked id="under21">I am under 21!<br/>
+                    <input class="form-check-input" type="checkbox" name="age" value="21" id="over21"> I am over 21!
+                </div>
+
                 <button type="submit" class="btn btn-primary">I Swear the above to be true!</button>
             </form>
             <!--
             <button onclick="showPrivate()" id="showButton">I Agree to NOT share the content!</button>
             -->
-            <p class="ml-3 d-none" id="privateContent">
+            <p class="ml-3 privateContent" id="privateContent">
                 This is super secret content!  Do not share!  For Your Eyes Only!
             </p>
+            <div id="demo"></div>
             
             
             
