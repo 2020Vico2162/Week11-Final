@@ -14,6 +14,10 @@ ul.position-absolute {
     object-fit: cover;
 }
 
+#homePage {
+    max-height: 1024px
+}
+
 #DSFprojects .carousel-item img {
     height: 60vw;
     object-fit: cover;
