@@ -23,6 +23,21 @@ ul.position-absolute {
     object-fit: cover;
 }
 
+.hover:hover img {
+    opacity: .5;
+    height: 70vw;
+}
+.hover p {
+    display:none;
+}
+.hover:hover p {
+    display:block;
+    position:absolute;
+    top:0;
+    text-align: center;
+    width:100%;
+}
+
 #AboutDSF .carousel-item img {
     height: 60vw;
     object-fit: cover;
